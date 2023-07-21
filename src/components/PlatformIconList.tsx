@@ -20,7 +20,7 @@ interface Props {
 const PlatformIconList = ({ platforms }: Props) => {
     const iconMap: {[key: string]: IconType} = {
         pc: FaWindows,
-        playstationL: FaPlaystation,
+        playstation: FaPlaystation,
         xbox: FaXbox,
         nintendo: SiNintendo,
         mac: FaApple,
